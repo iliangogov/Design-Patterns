@@ -1,6 +1,6 @@
 ﻿namespace SingletonExample
 {
-    class Program
+    class Run
     {
         static void Main()
         {
