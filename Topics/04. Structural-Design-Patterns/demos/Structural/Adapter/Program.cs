@@ -7,14 +7,17 @@
     {
         public static void Main()
         {
-            ICompound water = new RichCompound("Water");
-            water.Display();
+            var water = new ChemicalDatabank();
+            System.Console.WriteLine( water.GetCriticalPoint("water","M"));
 
-            ICompound benzene = new RichCompound("Benzene");
-            benzene.Display();
+            //ICompound water = new RichCompound("Water");
+            //water.Display();
 
-            ICompound ethanol = new RichCompound("Ethanol");
-            ethanol.Display();
+            //ICompound benzene = new RichCompound("Benzene");
+            //benzene.Display();
+
+            //ICompound ethanol = new RichCompound("Ethanol");
+            //ethanol.Display();
         }
     }
 }
